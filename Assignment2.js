@@ -87,7 +87,7 @@ function findPrime(num, range){
     let flag;
     console.log(`Prime numbers between ${num} and ${range} are: `);
     for(let i=num; i <=range; i++){
-        if(i === 1 || i === 0)
+        if(i== 1 || i== 0)
             continue;
 
         flag = 1;
